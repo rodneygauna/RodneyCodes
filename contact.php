@@ -143,11 +143,14 @@ if (!$errName && !$errEmail && !$errPhone) {
 
     <body>
         <!-- Contact Page -->
-            <!-- Navbar (always collapsed) -->
-            <nav class="navbar sticky-top">
-                <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+				<!-- Navbar -->
+				<nav class="navbar navbar-expand-lg sticky-top">
+					<button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<img src="images/logo.png" width="40" height="30" alt="">
+					</a>
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item">

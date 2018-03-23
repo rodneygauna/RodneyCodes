@@ -157,7 +157,10 @@ if (!$errName && !$errEmail && !$errPhone) {
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+												<li class="nav-item">
+                            <a class="nav-link" href="skills.html">Skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -213,6 +216,7 @@ if (!$errName && !$errEmail && !$errPhone) {
                     <div class="col">
                         <a href="index.html">Home</a><br>
                         <a href="about.html">About</a><br>
+												<a href="skills.html">Skills</a><br>
                         <a href="portfolio.html">Portfolio</a><br>
                         <a href="resume/Rodney%20Gauna_UX%20Designer.pdf" target="_blank">Resume</a><br>
                         <a href="contact.php">Contact</a>

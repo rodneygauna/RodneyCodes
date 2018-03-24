@@ -18,6 +18,24 @@ body {
   top: 50%;
   transform: translate(0, -50%);
 }
+.featurette-divider {
+  margin: 2rem 0;
+}
+hr {
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+.featurette-heading{
+  font-size: 50px;
+  font-weight: 400px;
+  margin-top: 2rem;
+}
+.lead {
+  margin-bottom: 1rem;
+}
 .header {
   background-color: #4A90E2;
   color: #FFFFFF;

@@ -53,20 +53,20 @@ if (!$errName && !$errEmail && !$errPhone) {
 				<!-- Google / Search Engine Tags -->
 				<meta itemprop="name" content="Rodney.Codes - Rodney Gauna's Portfolio Site">
 				<meta itemprop="description" content="Rodney Gauna's Portfolio Site. UX Designer and Front End Developer.">
-				<meta itemprop="image" content="http://rodney.codes/images/profile_square.png">
+				<meta itemprop="image" content="http://rodney.codesimages/profile_square.png">
 
 				<!-- Facebook Meta Tags -->
 				<meta property="og:url" content="http://rodney.codes">
 				<meta property="og:type" content="website">
 				<meta property="og:title" content="Rodney.Codes - Rodney Gauna's Portfolio Site">
 				<meta property="og:description" content="Rodney Gauna's Portfolio Site. UX Designer and Front End Developer.">
-				<meta property="og:image" content="http://rodney.codes/images/profile_square.png">
+				<meta property="og:image" content="http://rodney.codesimages/profile_square.png">
 
 				<!-- Twitter Meta Tags -->
 				<meta name="twitter:card" content="summary_large_image">
 				<meta name="twitter:title" content="Rodney.Codes - Rodney Gauna's Portfolio Site">
 				<meta name="twitter:description" content="Rodney Gauna's Portfolio Site. UX Designer and Front End Developer.">
-				<meta name="twitter:image" content="http://rodney.codes/images/profile_square.png">
+				<meta name="twitter:image" content="http://rodney.codesimages/profile_square.png">
 
 				<!-- Meta Tags Generated via http://heymeta.com -->
         <!-- Favicon -->

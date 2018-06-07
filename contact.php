@@ -19,19 +19,19 @@
 			$errEmail = 'Please enter a valid email address.';
 		}
 
-        //Check if phone has been entered
-        if (!$_POST['phone']) {
+    //Check if phone has been entered
+    if (!$_POST['phone']) {
 			$errPhone = 'Please enter your phone number.';
 		}
 
-// If there are no errors, send the email
-if (!$errName && !$errEmail && !$errPhone) {
-	if (mail ($to, $subject, $body, $from)) {
-		$result='<div class="alert alert-success">Thank You! We will be in touch.</div>';
-	} else {
-		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try calling us at <a href="tel:+1-760-587-0052" class="btn btn-primary"> (760) 587-0052</a></div>';
-	}
-}
+		// If there are no errors, send the email
+		if (!$errName && !$errEmail && !$errPhone) {
+			if (mail ($to, $subject, $body, $from)) {
+				$result='<div class="alert alert-success">Thank You! We will be in touch.</div>';
+			} else {
+				$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try calling us at <a href="tel:+1-760-587-0052" class="btn btn-primary"> (760) 587-0052</a></div>';
+			}
+		}
 	}
 ?>
 
